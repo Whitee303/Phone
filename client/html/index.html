@@ -1,0 +1,39 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="box"></div>
+    <img src="obraz.png" alt="Bg" id="bg" width="380" height="660">
+    <img src="google.png" alt="google" id="TGoogle" width="50" height="50">
+    <img src="logo.svg" alt="alt" id="altv" width="50" height="50">
+    <img src="fb.png" alt="Facebook" id="fb" width="50" height="50">
+    <img src="github.png" alt="Git" id="github" width="50" height="50">
+
+    <script>
+        document.getElementById('TGoogle').addEventListener("click", () => {
+            console.log("Test Webview");
+            window.location.replace("https://www.google.com/");
+        });
+        document.getElementById('altv').addEventListener("click", () => {
+            console.log("Test altV");
+            window.location.replace("https://www.altv.mp/");
+        });
+        document.getElementById('fb').addEventListener("click", () => {
+            console.log("Test fb");
+            window.location.replace("https://www.facebook.com/");
+        });
+        document.getElementById('github').addEventListener("click", () => {
+            console.log("Test github");
+            window.location.replace("https://www.github.com/");
+        });
+    </script>
+</body>
+
+</html>
