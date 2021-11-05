@@ -2,152 +2,85 @@
 
 #bg {
     position: relative;
-    top: 310px;
-    left: 1500px;
-    max-height: 660px;
-    max-width: 380px;
+    top: 35%;
+    left: 80%;
+    width: 20%;
+    height: 60%;
     
 }
 
 
 #TGoogle {
     position:relative;
-    left: 1183px;
-    top: -200px;
+    top: -13%;
+    left: 62.6%;
+    width: 3%;
+    height: 4%;
 
 }
 
 #altv {
     position:relative;
-    left: 1195px;
-    top: -200px;
+    top: -13%;
+    left: 63%;
+    width: 3%;
+    height:4%;
+
 }
 
 #fb {
     position:relative;
-    left: 1203px;
-    top: -200px;
+    top: -13%;
+    left: 63.4%;
+    width: 3%;
+    height: 4%;
+
 }
 
 #github {
     position:relative;
-    left: 1213px;
-    top: -200px;
+    top: -13%;
+    left: 63.7%;
+    width: 3%;
+    height: 4%;
+
 }
 
-@media screen and (max-width: 1280px) {
-    #bg {
-        position: relative;
-        top: 370px;
-        left: 1012px; 
-        width: 255px;
-        height: 550px;
-    }
-    #altv{
-        position: relative;
-        top: -70px;
-        left: 800px; 
-        width: 35px;
-        height: 35px;
-    }
-    #TGoogle{
-        position: relative;
-        top: -70px;
-        left: 790px; 
-        width: 35px;
-        height: 35px;
-    }
-    #fb {
-        position:relative;
-        left: 810px;
-        top: -70px;
-        width: 35px;
-        height: 35px;
-    }
-    
-    #github {
-        position:relative;
-        left: 820px;
-        top: -70px;
-        width: 35px;
-        height: 35px;
-    }
-  }
 
-  @media screen and (max-width: 1280px) and (max-height: 720px)  {
-    #bg {
-        position: relative;
-        top: 240px;
-        left: 1012px; 
-        width: 240px;
-        height: 440px;
+@media screen and (max-width: 800px)  {
+    #TGoogle {
+        position:relative;
+        top: -13%;
+        left: 62%;
+        width: 3%;
+        height: 4%;
+    
     }
-    #altv{
-        position: relative;
-        top: -115px;
-        left: 810px; 
-        width: 30px;
-        height: 30px;
+    
+    #altv {
+        position:relative;
+        top: -13%;
+        left: 62.3%;
+        width: 3%;
+        height:4%;
+    
     }
-    #TGoogle{
-        position: relative;
-        top: -115px;
-        left: 800px; 
-        width: 30px;
-        height: 30px;
-    }
+    
     #fb {
         position:relative;
-        left: 820px;
-        top: -115px;
-        width: 35px;
-        height: 35px;
+        top: -13%;
+        left: 63.0%;
+        width: 3%;
+        height: 4%;
+    
     }
     
     #github {
         position:relative;
-        left: 830px;
-        top: -115px;
-        width: 35px;
-        height: 35px;
-    }
-}
-
-@media screen and (max-width: 1024px) and (max-height: 768px)  {
-    #bg {
-        position: relative;
-        top: 280px;
-        left: 800px; 
-        width: 200px;
-        height: 405px;
-    }
-    #altv{
-        position: relative;
-        top: -35px;
-        left: 630px; 
-        width: 30px;
-        height: 30px;
-    }
-    #TGoogle{
-        position: relative;
-        top: -35px;
-        left: 625px; 
-        width: 30px;
-        height: 30px;
-    }
-    #fb {
-        position:relative;
-        left: 631px;
-        top: -35px;
-        width: 30px;
-        height: 30px;
-    }
+        top: -13%;
+        left: 63.3%;
+        width: 3%;
+        height: 4%;
     
-    #github {
-        position:relative;
-        left: 633px;
-        top: -35px;
-        width: 30px;
-        height: 30px;
     }
-  }
+  } 
