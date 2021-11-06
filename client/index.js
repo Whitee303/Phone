@@ -9,25 +9,24 @@ let mainView;
 let OpenClose;
 alt.on('keydown', (key) => {
     if (key === 0x4C && !OpenClose) {
-        alt.setTimeout(() => {
-            mainView = new alt.WebView("http://resource/client/html/index.html", false);
-            mainView.focus();
-            OpenClose = true;
-            alt.log("Res");
-            alt.showCursor(true);
-            alt.toggleGameControls(false);
-        }, 1200);
+        mainView = new alt.WebView("http://resource/client/html/index.html");
+        mainView.focus();
+        OpenClose = true;
+        alt.log("Res");
+        alt.showCursor(true);
+        alt.toggleGameControls(false);
+        return;
+
 
     }
     if (key === 0x4C && OpenClose) {
-        alt.setTimeout(() => {
-            OpenClose = null;
-            alt.log("Close");
-            alt.showCursor(false);
-            mainView.destroy()
-            alt.toggleGameControls(true);
-            return;
-        }, 1200)
+
+        OpenClose = null;
+        alt.log("Close");
+        alt.showCursor(false);
+        mainView.destroy();
+        alt.toggleGameControls(true);
+        return;
+
     }
 });
-
